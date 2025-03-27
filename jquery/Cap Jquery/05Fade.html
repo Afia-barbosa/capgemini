@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade</title>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("h1").css("display", "nome");
+
+            $("#exibir").click(function(){
+                $("h1").fadeIn("slow");
+            });
+
+            $("#ocultar").click(function(){
+                $("h1").fadeOut("2000");
+            });
+
+
+         
+        });
+
+    </script>
+
+</head>
+<body>
+    <button id="exibir">Exibir</button>
+    <button id="ocultar">Ocultar</button>
+
+    <h1>Aprendendo jquery</h1>
+</body>
+</html>
