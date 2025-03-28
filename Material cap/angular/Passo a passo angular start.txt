@@ -1,0 +1,28 @@
+Passo a passo angular start 
+Criando O html com angular Vscode 
+
+Terminal vscode npm start 
+
+Criar uma pasta -> arquivo app
+
+@component selector: criar app-meucomponente 
+	template
+	styles
+
+depois exportar a class "Aqrquivo sem pontos"
+
+no arquivo componentes.ts Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, CommonModule, FormsModule, PrimeiroComponenteComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+  title = 'fundamentos-angular';
+}
+
+Adicionar os módulos importando meu componente 
+depois adicionar a classe no importes na declaração 
+
+
