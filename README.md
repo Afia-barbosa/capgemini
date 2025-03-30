@@ -12,9 +12,7 @@ O programa cobre conceitos fundamentais e avançados em diversas tecnologias uti
 📂 Este repositório contém:
 
 Projetos práticos desenvolvidos durante o treinamento
-
 Exercícios para reforçar conceitos
-
 Anotações sobre os temas estudados
 
 💡 Objetivo: Consolidar o aprendizado e evoluir nas tecnologias abordadas no programa.
