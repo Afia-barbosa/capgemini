@@ -12,18 +12,18 @@ export class CicloDeVidaComponent implements OnInit, OnChanges, OnDestroy {
   horario = new Date();
   timer: any = null!;
 
-  @Input() texto = "";  
+  @Input() texto = "";
 
   ngOnInit(): void {
     console.log("O evento ngOnInit disparou! ");
     this.timer = setInterval(() => this.horario = new Date(), 1000)
   }
-
+  
   ngOnChanges(changes: SimpleChanges): void {
-        console.log(changes);
+    console.log(changes);
   }
+
   ngOnDestroy(): void {
     clearInterval(this.timer);
   }
-
 }

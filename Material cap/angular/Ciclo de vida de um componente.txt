@@ -1,0 +1,4 @@
+Ciclo de vida de um componente
+
+- Renderiza o componente 
+método > ngOnInit()
